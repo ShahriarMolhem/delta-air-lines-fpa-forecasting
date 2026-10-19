@@ -9,16 +9,16 @@
 - [x] FY2026–FY2028 illustrative driver-based model summary with identified assumptions.
 - [x] Hypothetical passenger-yield / fuel-cost sensitivity in Markdown.
 - [x] Executive summary, presentation outline and full speaking script.
-- [x] Workbook and PowerPoint created outside GitHub.
+- [x] Workbook and PowerPoint created, uploaded to GitHub, matched against the original local files by Git blob SHA-1, and verified as structurally valid OOXML ZIP archives (9 Excel worksheets, 10 slides).
 
-## Still required prior to merging and public release
-- [ ] Upload **models/delta_air_lines_fpa_model.xlsx** to this branch.
-- [ ] Upload **presentations/delta_fpa_executive_deck.pptx** to this branch.
-- [ ] Verify in GitHub that both binary files exist in expected folders.
-- [ ] Update main README and dependency notes to mark files uploaded.
+## Publication steps: upload verified; owner approval still outstanding
+- [x] Upload **models/delta_air_lines_fpa_model.xlsx** to this branch.
+- [x] Upload **presentations/delta_fpa_executive_deck.pptx** to this branch.
+- [x] Verify in GitHub that both binary files exist in expected folders and match the local originals.
+- [x] Update main README and supporting documentation to mark files uploaded.
 - [ ] Owner opens and checks the workbook and slide deck.
 - [ ] Owner practices and reviews the financial conclusions.
-- [ ] Merge PR #4; change visibility only upon explicit owner approval.
+- [ ] Merge PR #4 after final release documentation is ready; change visibility only upon explicit owner approval.
 
 ## No false claims
 A student scenario is not a Delta management budget or forecast; arithmetic checks are not an audit. There is no claim of CPA verification or Delta endorsement.
