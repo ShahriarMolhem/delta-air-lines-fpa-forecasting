@@ -1,7 +1,7 @@
 # Delta Excel Model | Assumptions, Mechanics and Artifact Status
 
-## Workbook prepared
-Filename: `delta_air_lines_fpa_model.xlsx`, nine Excel worksheets, approximately 202 formula cells. **Binary not yet uploaded.**
+## Workbook available in this repository
+[Download the Excel FP&A model](delta_air_lines_fpa_model.xlsx) — nine worksheets, approximately 202 formula cells. The GitHub file matches the locally prepared workbook by Git blob hash and passed ZIP package integrity checks.
 
 The companion Excel includes historical GAAP operating results, operating KPIs, an FY2024–FY2025 expense bridge, a driver-based FY2026–FY2028 forecast, scenario sensitivity and calculation validation.
 
@@ -24,7 +24,7 @@ The companion Excel includes historical GAAP operating results, operating KPIs, 
 - Workbook was locally checked for common formula errors; local formula inspection is not an external financial audit.
 
 ## Release dependency
-The two binary project files (`.xlsx` and `.pptx`) require upload to their corresponding folders on the **project's own release branch**, followed by a GitHub check and README update. The project must stay Private until owner review and explicit approval to publish.
+Both binary files have been uploaded to their respective folders on the release branch and verified by byte-for-byte Git object identity and archive integrity. The repository must remain **Private** until owner review and explicit approval to publish.
 
 ## Disclosure
 All FY2026–FY2028 projections are student-created **illustrative assumptions**, not Delta-issued guidance, internal budgets, or assertions about future earnings.
