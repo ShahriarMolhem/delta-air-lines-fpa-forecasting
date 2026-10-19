@@ -3,7 +3,7 @@
 **Independent undergraduate finance portfolio project**  
 **Shahriar Molhem** · BBA Finance · University of Georgia, Terry College of Business
 
-> **Current status: Project foundation in development.** Reported FY2021–FY2025 results are from Delta's SEC filings. FY2026–FY2028 numbers will be **illustrative student scenarios**—not Delta's internal budget, management guidance, or confidential information.
+> **Current status: Completed private portfolio draft; final owner review and public-release approval pending.** Reported FY2021–FY2025 results are from Delta's SEC filings. FY2026–FY2028 numbers will be **illustrative student scenarios**—not Delta's internal budget, management guidance, or confidential information.
 
 ## Central question
 How did Delta's revenue and operating-cost drivers change across FY2021–FY2025, and how might hypothetical capacity, passenger yield, fuel-price, and labor-cost assumptions affect an educational three-year operating forecast?
@@ -25,12 +25,12 @@ How did Delta's revenue and operating-cost drivers change across FY2021–FY2025
 - [Five-year GAAP statement dataset](data/historical-gaap.csv) and [operating statistics](data/operating-statistics.csv)
 - [Three-year hypothetical FP&A forecast and sensitivity](reports/forecast-and-sensitivity.md)
 - [Executive summary](reports/executive-summary.md)
-- [Excel-model specification](models/README.md) — workbook binary **pending upload**
-- [Ten-slide PowerPoint outline](presentations/presentation-outline.md) — deck binary **pending upload**
+- [Download Excel FP&A model (9 worksheets)](models/delta_air_lines_fpa_model.xlsx) · [Model specification](models/README.md)
+- [Download 10-slide PowerPoint presentation](presentations/delta_fpa_executive_deck.pptx) · [Slide outline](presentations/presentation-outline.md)
 - [Complete slide-by-slide speaking script](presentations/speaking-script.md)
 - [Release-readiness checklist](quality/release-readiness.md)
 
-**Status:** Analysis, Markdown and CSV files complete; Excel/PowerPoint binary upload and final review pending. The project is not yet ready for public publication.
+**Status:** All planned GitHub deliverables are uploaded: Markdown reports, SEC-based historical CSVs, the Excel model, and the presentation. Repository-file identities and OOXML package integrity have been checked. Final owner review and explicit permission to make the repository Public remain outstanding.
 
 ## Data provenance and boundaries
 Annual GAAP revenue and cost data come from [Delta FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/27904/000002790426000013/dal-20251231.htm) and [FY2023 Form 10-K](https://www.sec.gov/Archives/edgar/data/27904/000002790424000003/dal-20231231.htm), supplemented by issuer operating statistics. FY2021 includes pandemic-era government grant recognition and is not a normal operating baseline.
