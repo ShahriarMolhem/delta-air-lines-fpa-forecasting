@@ -20,7 +20,17 @@ How did Delta's revenue and operating-cost drivers change across FY2021–FY2025
 - [Methodology](reports/methodology.md)
 - [Research scope and development workflow](PROJECT_PLAN.md)
 
-Historical reports and the model will be linked **only after their review stages are completed**.
+## Current deliverables
+- [Five-year historical financial performance](reports/historical-performance.md)
+- [Five-year GAAP statement dataset](data/historical-gaap.csv) and [operating statistics](data/operating-statistics.csv)
+- [Three-year hypothetical FP&A forecast and sensitivity](reports/forecast-and-sensitivity.md)
+- [Executive summary](reports/executive-summary.md)
+- [Excel-model specification](models/README.md) — workbook binary **pending upload**
+- [Ten-slide PowerPoint outline](presentations/presentation-outline.md) — deck binary **pending upload**
+- [Complete slide-by-slide speaking script](presentations/speaking-script.md)
+- [Release-readiness checklist](quality/release-readiness.md)
+
+**Status:** Analysis, Markdown and CSV files complete; Excel/PowerPoint binary upload and final review pending. The project is not yet ready for public publication.
 
 ## Data provenance and boundaries
 Annual GAAP revenue and cost data come from [Delta FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/27904/000002790426000013/dal-20251231.htm) and [FY2023 Form 10-K](https://www.sec.gov/Archives/edgar/data/27904/000002790424000003/dal-20231231.htm), supplemented by issuer operating statistics. FY2021 includes pandemic-era government grant recognition and is not a normal operating baseline.
