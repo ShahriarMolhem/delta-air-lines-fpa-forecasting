@@ -1,6 +1,6 @@
 # Delta Financial Planning & Analysis — Ten-Slide Speaking Deck
 
-**Presentation file:** `presentations/delta_fpa_executive_deck.pptx` (prepared; **pending GitHub binary upload**).
+**Presentation file:** [delta_fpa_executive_deck.pptx](delta_fpa_executive_deck.pptx) — **uploaded and verified** (10 slides). [Full speaking script](speaking-script.md).
 
 1. **Title:** Independent undergraduate FP&A study using Delta SEC data.
 2. **Business questions:** Reported financial performance, operating-driver costs, scenarios.
