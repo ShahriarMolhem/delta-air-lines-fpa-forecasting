@@ -1,6 +1,6 @@
 # Release Readiness | Delta Air Lines FP&A Project
 
-**Repository remains Private.** PR #4 contains the final communications and release-control documents.
+**Repository remains Private.** All four original PRs have been merged; the final communications, workbook, and presentation are available.
 
 ## Completed
 - [x] FY2021–FY2025 raw GAAP financial data and aviation operational statistics in CSV.
@@ -18,7 +18,7 @@
 - [x] Update main README and supporting documentation to mark files uploaded.
 - [ ] Owner opens and checks the workbook and slide deck.
 - [ ] Owner practices and reviews the financial conclusions.
-- [ ] Merge PR #4 after final release documentation is ready; change visibility only upon explicit owner approval.
+- [x] PR #4 merged. Visibility will change only upon explicit owner approval.
 
 ## No false claims
 A student scenario is not a Delta management budget or forecast; arithmetic checks are not an audit. There is no claim of CPA verification or Delta endorsement.
