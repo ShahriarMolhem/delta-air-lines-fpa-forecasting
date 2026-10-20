@@ -1,40 +1,42 @@
 # Delta Air Lines | Revenue, Cost & FP&A Forecasting
 
-**Independent undergraduate finance portfolio project**  
-**Shahriar Molhem** · BBA Finance · University of Georgia, Terry College of Business
+**Shahriar Molhem** · BBA Finance, University of Georgia — Terry College of Business  
+**Skills practiced:** Operating analysis, revenue and cost drivers, Excel financial planning, sensitivity analysis
 
-> **Current status: Completed private portfolio draft; final owner review and public-release approval pending.** Reported FY2021–FY2025 results are from Delta's SEC filings. FY2026–FY2028 numbers will be **illustrative student scenarios**—not Delta's internal budget, management guidance, or confidential information.
+## What I set out to understand
 
-## Central question
-How did Delta's revenue and operating-cost drivers change across FY2021–FY2025, and how might hypothetical capacity, passenger yield, fuel-price, and labor-cost assumptions affect an educational three-year operating forecast?
+An airline can increase revenue without increasing profit. I used Delta's publicly reported results to understand the roles of passenger revenue, fuel, labor, and capacity—and then built a simple FP&A scenario to explore how these drivers interact.
 
-## Four-stage review workflow
+The historical data cover **FY2021–FY2025**. Forecast years **FY2026–FY2028 are hypothetical student scenarios**, not Delta's actual budget, guidance, or internal forecast.
 
-1. **PR #1 — Research foundations:** scope, primary SEC sources, formulas, ethical boundaries.
-2. **PR #2 — Historical data:** five-year GAAP source CSV, aviation KPIs, expense and operating-income bridge, reconciliation.
-3. **PR #3 — FP&A scenario:** driver-based Excel operating model, FY2026–FY2028 assumptions, fuel/yield sensitivity.
-4. **PR #4 — Executive communication:** full PowerPoint, slide-by-slide English rehearsal transcript, interview summary, release checks.
+## Key findings
 
-## Navigation
-- [Source register](data/source-register.md)
-- [Methodology](reports/methodology.md)
-- [Research scope and development workflow](PROJECT_PLAN.md)
+- **Higher revenue did not translate into higher operating income.** FY2025 revenue was **$63.36 billion** (+2.8% from 2024), while operating income fell **$173 million** to **$5.82 billion**.
+- **Expenses moved in different directions.** Salaries and related costs increased by **$1.36 billion**, while fuel expense decreased by **$747 million**, despite higher fuel consumption.
+- **The forecast uses operating drivers.** Passenger revenue responds to available seat miles (ASM) and passenger revenue per ASM; fuel and labor have their own volume and unit-cost assumptions.
+- **The illustrative FY2026 case shows cost pressure.** Modeled revenue reaches **$65.64 billion**, but modeled operating income falls to **$5.26 billion** as assumed cost inflation outpaces passenger yield growth.
 
-## Current deliverables
-- [Five-year historical financial performance](reports/historical-performance.md)
-- [Five-year GAAP statement dataset](data/historical-gaap.csv) and [operating statistics](data/operating-statistics.csv)
-- [Three-year hypothetical FP&A forecast and sensitivity](reports/forecast-and-sensitivity.md)
-- [Executive summary](reports/executive-summary.md)
-- [Download Excel FP&A model (9 worksheets)](models/delta_air_lines_fpa_model.xlsx) · [Model specification](models/README.md)
-- [Download 10-slide PowerPoint presentation](presentations/delta_fpa_executive_deck.pptx) · [Slide outline](presentations/presentation-outline.md)
-- [Complete slide-by-slide speaking script](presentations/speaking-script.md)
-- [Release-readiness checklist](quality/release-readiness.md)
+The sensitivity analysis varies fuel cost and passenger yield to illustrate the effect on operating income. It's a **what-if exercise**, not a probability distribution or prediction of actual earnings.
 
-**Status:** All planned GitHub deliverables are uploaded: Markdown reports, SEC-based historical CSVs, the Excel model, and the presentation. Repository-file identities and OOXML package integrity have been checked. Final owner review and explicit permission to make the repository Public remain outstanding.
+## Explore the project
 
-## Data provenance and boundaries
-Annual GAAP revenue and cost data come from [Delta FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/27904/000002790426000013/dal-20251231.htm) and [FY2023 Form 10-K](https://www.sec.gov/Archives/edgar/data/27904/000002790424000003/dal-20231231.htm), supplemented by issuer operating statistics. FY2021 includes pandemic-era government grant recognition and is not a normal operating baseline.
+| File | Purpose |
+| --- | --- |
+| [Executive summary](reports/executive-summary.md) | Short business-level overview |
+| [Historical analysis](reports/historical-performance.md) | Five-year trends, EBIT bridge, and fuel cost changes |
+| [Forecast and sensitivity](reports/forecast-and-sensitivity.md) | FY2026–FY2028 assumptions and model outcomes |
+| [Excel FP&A model](models/delta_air_lines_fpa_model.xlsx) | Historical data, operating drivers, forecast, and checks |
+| [GAAP source data](data/historical-gaap.csv) · [Operating KPIs](data/operating-statistics.csv) | Public filings and reported statistics |
+| [Ten-slide presentation](presentations/delta_fpa_executive_deck.pptx) | Interview-ready project overview |
+| [Presentation speaking script](presentations/speaking-script.md) | Practice transcript, matched to all ten slides |
+| [Sources](data/source-register.md) · [Methodology](reports/methodology.md) | How assumptions and reported results were separated |
 
-This is an **independent student portfolio**: not an audit, CPA opinion, certified forecast, trading recommendation, or representation that the student has worked for Delta. AI assistance may be used to draft and validate work; the portfolio owner should verify and understand calculations before presenting them as personal skills.
+## What this taught me
 
-**Publication:** Keep the repository **Private** until all reviewed artifacts are present and the owner explicitly authorizes Public visibility.
+I learned to move beyond the question, “Did revenue increase?” and ask what happened to the underlying operating drivers. The revenue and expense bridge reconciles the GAAP operating-income change. The forecast shows how a few operational inputs affect a profit outlook—and why those inputs need to be explained.
+
+The model simplifies fare-demand responses, refinery economics, hedging, labor contracts, and Delta's non-passenger businesses. These are real limitations, not hidden adjustments.
+
+**Primary source:** [Delta FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/27904/000002790426000013/dal-20251231.htm).
+
+*Independent undergraduate case study based on public sources, with AI-assisted drafting and calculation support. No access to Delta's confidential information or endorsement is implied.*

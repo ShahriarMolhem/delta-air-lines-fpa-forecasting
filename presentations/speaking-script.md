@@ -41,3 +41,17 @@ This project helped me connect SEC reporting, airline operating metrics, Excel f
 3. Answer without notes: **Why is 2021 unusual? Why did fuel expense fall as gallons rose? Why are 2026 model numbers not an actual Delta budget?**
 
 **Language tip:** Say “F-P-and-A”, “A-S-M”, “P-RASM”, and “E-bit”. Use “percentage points” for changes between two percentages. Do not imply audited analysis or independently established expertise.
+
+
+## Delivery notes: keep the financial story conversational
+
+A natural presentation explains the business change first, then uses the financial statements to support the explanation. Avoid reading every number in the sensitivity table.
+
+- **Slide 3 → 4:** “Because 2021 is a recovery year, I paid more attention to the changes between 2024 and 2025.”
+- **Slide 5 → 6:** “Fuel is a good example of why unit costs and consumption should be separated.”
+- **Slide 7 → 8:** “These aren't Delta's forecasts. I selected assumptions to explore what would happen if costs grew faster than yield.”
+- **Slide 9:** Describe the *center* case first, then one higher-fuel-cost case. That's enough to convey the lesson.
+
+**Practice interview questions:** What is ASM? Why should non-passenger revenue not be treated as air fares? What might break the assumption that all remaining expenses scale with ASM?
+
+**If challenged:** “You're right that the model simplifies that relationship. I wanted a clear driver-based starting point; I'd refine the cost categories using segment data and the company's disclosures.”
